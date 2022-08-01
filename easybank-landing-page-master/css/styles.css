@@ -495,3 +495,9 @@
     }
   
   }
+
+  @media (min-width: 1440px) {
+    .hero__main{
+      margin: 0 auto;
+    }
+  }
