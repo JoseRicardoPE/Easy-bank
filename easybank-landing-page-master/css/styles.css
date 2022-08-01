@@ -298,7 +298,6 @@
   }
   
   /** --- Footer Section --- **/
-  /* ---footer section --- */
   .footer {
     background-color: var(--Dark-Blue);
     width: 100%;
@@ -307,9 +306,6 @@
   
   .footer__container {
     padding: 50px 0;
-  }
-  
-  .footer__socialMedia {
   }
   
   .footer__logo {
@@ -350,9 +346,6 @@
     color: var(--Light-Grayish-Blue);
     font-size: 14px;
     font-weight: 400;
-  }
-  
-  .footer__button {
   }
   
   .cta--footer {
@@ -475,20 +468,25 @@
       width: 550px;
     }
   
+    .footer__socialMedia{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
     .footer__container{
       display: flex;
-      align-items: center;
     }
   
     .footer__nav{
-      display: grid;
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 60px;
+      column-gap: 140px;
       margin-top: 0;
-      margin-left: 60px;
+      margin-left: 130px;   
+      margin-bottom: unset;     
     }
   
-    .footer__nav{
+    .footer__button{
       margin-left: auto;
     }
   
